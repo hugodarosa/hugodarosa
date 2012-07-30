@@ -1,0 +1,67 @@
+body { background: url("../images/layout/bg_grid.jpg") center center no-repeat #343434; width: 100%; height: 100%; margin: 0; font-family: Verdana, sans-serif; color: #FFF; font-size: 12px; overflow-y: hidden; }
+a, a:visited { text-decoration: none; }
+a:hover { color: #aad7f9; }
+h1 { font-family: 'Quicksand', sans-serif; margin: 0 0 15px 0; color: #FFF; font-size:34px; font-weight: 400; }
+#loading { width: 450px; height: 639px; background: url("../images/layout/bg_blk_70.png") top left repeat; right: 0; top: 0px; position: absolute; z-index: 5; visibility:hidden; }
+#container { background: #000; width: 959px; height: 498px; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;  }
+#container .bg1 { background: url("../images/assets/bg1.jpg") top left no-repeat; display: none; width: 959px; height: 499px; position: absolute; z-index: 1; }
+#container .bg2 { background: url("../images/assets/bg2.jpg") center left no-repeat; display: none; width: 959px; height: 499px; position: absolute; z-index: 1; }
+#container .bg3 { background: url("../images/assets/bg3.jpg") center left no-repeat; display: none; width: 959px; height: 499px; position: absolute; z-index: 1; }
+#container .bg4 { background: url("../images/assets/bg4.jpg") center left no-repeat; display: none; width: 959px; height: 499px; position: absolute; z-index: 1; }
+#container .bg5 { background: url("../images/assets/bg5.jpg") top left no-repeat; display: none; width: 959px; height: 499px; position: absolute; z-index: 1; }
+#container .header { background: url("../images/layout/banner.png") top left no-repeat; width: 535px; height: 82px; margin: -50px 0 0 -15px; position: absolute; z-index: 2; }
+#container .content { width: 440px; height: 499px; background: url("../images/layout/bg_blk_70.png") top left repeat; right: 20px; top: 0px; position: absolute; z-index: 2; overflow-y: auto; overflow-x: hidden; }
+#footer { width: 959px; height: 55px; margin: auto; position: absolute; top: 530px; bottom: 0; left: 0; right: 0; }
+#footer a { color: #aad7f9; text-decoration: none; }
+#footer a:hover { text-decoration: underline }
+#footer .copyright { width: 420px; float: left; margin: 15px 0 0 0; padding: 0 0 0 10px; }
+#footer .sdt_menu { float: left; }
+
+.top_menu { background: url("../images/layout/bg_blk_70.png") top left repeat; width: 440px; height: 25px; border-bottom: 1px solid #555; position: fixed; text-align: center; padding: 10px 0 0 0; display: none; }
+.top_menu .onPage { font-weight: bold; text-transform: uppercase; }
+.top_menu a { color: #aad7f9; text-transform: capitalize; text-decoration: none; }
+.top_menu a:hover { color: #FFF; text-decoration: none; cursor: pointer; }
+.top_menu .divider { width: 1px; height: 20px; border-left: 1px solid #999; margin: 0 15px 0 15px; }
+
+/** Twitter **/
+#home .content_twitter { width: 410px; height: 200px; padding: 10px 20px 10px 20px; }
+/** Instagram **/
+#home .content_instagram { width: 410px; height: 199px; padding: 10px 20px 10px 20px; background: url("../images/layout/spinner.gif") center 200px no-repeat; }
+#home .content_instagram .instagram-items { float: left; margin: 0 3px 3px 0; }
+#home .content_instagram .instagram-items img { width: 77px; border: none; }
+
+
+/** About Page **/
+#about { width: 410px; padding: 10px 20px 10px 20px; }
+#about .section { margin: 0 0 20px 0; }
+#about .cat { font-weight: bold; width: 120px; float: left; margin: 0 0 10px 0; }
+#about .desc { float: left; max-width: 290px; height: auto; margin: 0 0 10px 0; }
+
+
+/** Audio Page **/
+#audio { width: 410px; padding: 10px 20px 10px 20px; }
+#audio .section { margin: 0px 0 10px 0; }
+#audio .section .leftCol { width: 150px; padding: 18px 0 0 0; float: left; }
+#audio .section .leftCol .artist { margin: 3px 0 0 0; font-size: 13px; font-weight: bold; font-style: italic; }
+#audio .section .rightCol { float: left; }
+#audio .section .rightCol .group { margin: 0 0 15px 0; }
+#audio .section .rightCol .group .name { font-size: 13px; font-style: italic; margin: 0 0 5px 0; }
+#audio .new { margin: 0px 0 20px 0; }
+#audio .new .artist { font-size: 13px; font-weight: bold; }
+#audio .new .title { font-size: 11px; font-style: italic; margin: 0 0 10px 0; }
+#audio .new .desc { font-size: 10px; font-style: italic; margin: 10px 0 0 0; color: #999; }
+#audio .new .leftCol { width: 50%; float: left; }
+#audio .new .rightCol { width: 50%; float: left; }
+
+
+/** Video Page **/
+#video { width: 410px; padding: 10px 20px 10px 20px; }
+
+
+/** Contact Page **/
+#contact { width: 410px; padding: 10px 20px 10px 20px; }
+#contact input#contactname, input#email, input#subject, textarea { border: 1px solid #fff; padding: 5px; background-color: #051327; font-size: 10px; color: #fff; }
+#contact input.submit { border: 1px solid #fff; padding: 5px; background-color: #000; font-size: 12px; color: #fff; }
+#contact input.submit:hover { background-color: #051327; }
+#contact .message { width: 95%; text-align: center; margin: 10px 0 50px 0; }
+#contact .email { width: 95%; text-align: center; font-size: 20px; font-weight: bold; }
