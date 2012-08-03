@@ -9,5 +9,6 @@
 <div id="video">
       
       <h1>Videos</h1>
-        
+
+        <p>Coming soon!</p>
 </div>

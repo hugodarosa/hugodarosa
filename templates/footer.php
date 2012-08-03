@@ -14,7 +14,7 @@
                 <ul id="sdt_menu" class="sdt_menu">
                         <li>
                                 <a class="nav" href="#page1">
-                                        <img src="images/2.jpg" alt=""/>
+                                        <img src="images/layout/menu_about.jpg" alt="About Me"/>
                                         <span class="sdt_active"></span>
                                         <span class="sdt_wrap">
                                                 <span class="sdt_link">about me</span>
@@ -23,7 +23,7 @@
                         </li>
                         <li>
                                 <a class="nav" href="#page2">
-                                        <img src="images/1.jpg" alt=""/>
+                                        <img src="images/layout/menu_music.jpg" alt="Music"/>
                                         <span class="sdt_active"></span>
                                         <span class="sdt_wrap">
                                                 <span class="sdt_link">music</span>
@@ -36,7 +36,7 @@
                         </li>
                         <li>
                                 <a class="nav" href="#page4">
-                                        <img src="images/3.jpg" alt=""/>
+                                        <img src="images/layout/menu_contact.jpg" alt="Contact"/>
                                         <span class="sdt_active"></span>
                                         <span class="sdt_wrap">
                                                 <span class="sdt_link">Contact</span>

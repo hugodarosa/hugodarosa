@@ -96,11 +96,12 @@ ul.sdt_menu li div.sdt_box a{
 	float:left;
 	clear:both;
 	line-height:30px;
-	color:#a6b9a3;
+	color:#aad7f9;
 }
 ul.sdt_menu li div.sdt_box a:first-child{
 	margin-top:15px;
 }
 ul.sdt_menu li div.sdt_box a:hover{
 	color:#fff;
+	text-decoration: none; 
 }

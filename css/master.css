@@ -1,6 +1,6 @@
 body { background: url("../images/layout/bg_grid.jpg") center center no-repeat #343434; width: 100%; height: 100%; margin: 0; font-family: Verdana, sans-serif; color: #FFF; font-size: 12px; overflow-y: hidden; }
-a, a:visited { text-decoration: none; }
-a:hover { color: #aad7f9; }
+a, a:visited { color: #aad7f9; text-decoration: none; }
+a:hover { color: #FFF; cursor: pointer; }
 h1 { font-family: 'Quicksand', sans-serif; margin: 0 0 15px 0; color: #FFF; font-size:34px; font-weight: 400; }
 #loading { width: 450px; height: 639px; background: url("../images/layout/bg_blk_70.png") top left repeat; right: 0; top: 0px; position: absolute; z-index: 5; visibility:hidden; }
 #container { background: #000; width: 959px; height: 498px; margin: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;  }
@@ -12,8 +12,8 @@ h1 { font-family: 'Quicksand', sans-serif; margin: 0 0 15px 0; color: #FFF; font
 #container .header { background: url("../images/layout/banner.png") top left no-repeat; width: 535px; height: 82px; margin: -50px 0 0 -15px; position: absolute; z-index: 2; }
 #container .content { width: 440px; height: 499px; background: url("../images/layout/bg_blk_70.png") top left repeat; right: 20px; top: 0px; position: absolute; z-index: 2; overflow-y: auto; overflow-x: hidden; }
 #footer { width: 959px; height: 55px; margin: auto; position: absolute; top: 530px; bottom: 0; left: 0; right: 0; }
-#footer a { color: #aad7f9; text-decoration: none; }
-#footer a:hover { text-decoration: underline }
+#footer .copyright a { color: #aad7f9; text-decoration: none; }
+#footer .copyright a:hover { text-decoration: underline }
 #footer .copyright { width: 420px; float: left; margin: 15px 0 0 0; padding: 0 0 0 10px; }
 #footer .sdt_menu { float: left; }
 
@@ -40,6 +40,9 @@ h1 { font-family: 'Quicksand', sans-serif; margin: 0 0 15px 0; color: #FFF; font
 
 /** Audio Page **/
 #audio { width: 410px; padding: 10px 20px 10px 20px; }
+#audio a { color: #aad7f9; text-decoration: none; }
+#audio a:hover { color: #FFF; text-decoration: none; cursor: pointer;}
+#audio img { border: none; }
 #audio .section { margin: 0px 0 10px 0; }
 #audio .section .leftCol { width: 150px; padding: 18px 0 0 0; float: left; }
 #audio .section .leftCol .artist { margin: 3px 0 0 0; font-size: 13px; font-weight: bold; font-style: italic; }
@@ -50,8 +53,8 @@ h1 { font-family: 'Quicksand', sans-serif; margin: 0 0 15px 0; color: #FFF; font
 #audio .new .artist { font-size: 13px; font-weight: bold; }
 #audio .new .title { font-size: 11px; font-style: italic; margin: 0 0 10px 0; }
 #audio .new .desc { font-size: 10px; font-style: italic; margin: 10px 0 0 0; color: #999; }
-#audio .new .leftCol { width: 50%; float: left; }
-#audio .new .rightCol { width: 50%; float: left; }
+#audio .new .leftCol { width: 35%; float: left; padding: 0 10px 0 0; }
+#audio .new .rightCol { width: 60%; float: left; }
 
 
 /** Video Page **/
