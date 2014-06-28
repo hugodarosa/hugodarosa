@@ -9,3 +9,5 @@ echo file_get_contents('pages/page_'.$page.'.php');
 
 else echo 'There is no such page!';
 ?>
+
+ 
